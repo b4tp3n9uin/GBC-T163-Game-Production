@@ -1,0 +1,16 @@
+﻿  Enemy.cpp
+c:\users\matth\documents\ghostinvaders_alpha\pacman\enemy.cpp(12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\ghostinvaders_alpha\pacman\enemy.cpp(36): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\matth\documents\ghostinvaders_alpha\pacman\enemy.cpp(37): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  GameState.cpp
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(65): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(72): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(79): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(89): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(96): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(104): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(113): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\ghostinvaders_alpha\pacman\gamestate.cpp(145): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  Pacman.vcxproj -> C:\Users\Matth\Documents\GhostInvaders_Alpha\Debug\Pacman.exe
