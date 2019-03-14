@@ -7,10 +7,13 @@
 | Matt.M        | Ryan.G        | Henry.Y  |Teddy.E      |Jen.M            |
 |               |               | Ihsan.T  |Chris.L      |Gavin.V          |
 
-## Work Assign
-Matt- Barricades, 
+### Work Assign
+Matt- Barricades, Bullet timeing.
+
 Teddy- Boss, Items, Player Death.
+
 Chris- FSM (Menu State, Pause State, Game Over State)
+
 Ryan- Sounds Manager
 
 ### Game Concept
