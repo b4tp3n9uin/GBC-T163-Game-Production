@@ -1,6 +1,3 @@
-# GBC-T163-Game-Production
-
-
 # Ghost invaders | Version-1000
 
 ![GhostInvaderIcon](https://cdn.discordapp.com/attachments/488781085254221825/533059578854899740/ef.png "This will be the game icon")
