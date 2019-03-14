@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{727933d4-ea08-441e-a78e-35f7659b3740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSource">
+      <UniqueIdentifier>{1872b59d-c7e6-46fe-87b5-6e7e8f03bc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Singletone">
+      <UniqueIdentifier>{353ecb20-ac2e-48e0-a577-43ee596f6c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DataType">
+      <UniqueIdentifier>{50a1c006-0a94-4fb6-aad8-4e5bcadea16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\State">
+      <UniqueIdentifier>{0b35409a-c03d-497f-9c83-e811f4961c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SDL">
+      <UniqueIdentifier>{e6677521-d6a6-4a8c-b007-a6c6faa327a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{1c82dc9e-1f04-4db9-bd84-857674f17691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>Engine\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_GameStateManager.cpp">
+      <Filter>Engine\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Image.cpp">
+      <Filter>Engine\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_Timer.cpp">
+      <Filter>Engine\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_ScreenHandeler.cpp">
+      <Filter>Engine\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="SDL_EventHandeler.cpp">
+      <Filter>Engine\SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullets.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardState.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>GameSource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UnCopyable.h">
+      <Filter>Engine\Singletone</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Engine\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Engine\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>Engine\State</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameState.h">
+      <Filter>Engine\State</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameStateManager.h">
+      <Filter>Engine\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_GameStateManager.h">
+      <Filter>Engine\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Image.h">
+      <Filter>Engine\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle2D.h">
+      <Filter>Engine\DataType</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_Timer.h">
+      <Filter>Engine\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Engine\Singletone</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_ScreenHandeler.h">
+      <Filter>Engine\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_EventHandeler.h">
+      <Filter>Engine\SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardState.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyState.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>GameSource</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
