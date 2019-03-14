@@ -8,13 +8,13 @@
 |               |               | Ihsan.T  |Chris.L      |Gavin.V          |
 
 ### Work Assign
-Matt- Barricades, Bullet timeing.
+Matt- Barricades, Bullet timeing, Sound track.
 
 Teddy- Boss, Items, Player Death.
 
 Chris- FSM (Menu State, Pause State, Game Over State)
 
-Ryan- Sounds Manager
+Ryan- Art
 
 ### Game Concept
 The initial concept in Ghost Invaders is to combine 2 classic arcade games (“Space Invaders” and “Pacman”) into one game,. The game design is like Space Invaders, with the characters and settings from Pacman, and the characters move in a vertical direction, unlike Space Invaders where the characters move horizontally. The character that you control is Rambo Pacman where you have a rifle and you have to shoot down all 50 ghosts. During the boss battles, the boss has 4 special attacks that can kill you, so it will be more difficult than the regular levels.
