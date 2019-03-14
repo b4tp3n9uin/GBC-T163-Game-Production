@@ -12,7 +12,7 @@ Matt- Barricades, Bullet timeing, Sound track.
 
 Teddy- Boss, Items, Player Death.
 
-Chris- FSM (Menu State, Pause State, Game Over State)
+Chris- Buttons and User Interface.
 
 Ryan- Art
 
