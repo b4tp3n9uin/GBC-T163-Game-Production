@@ -12,7 +12,7 @@ Matt- Barricades, Bullet timeing, Sound track.
 
 Teddy- Boss, Items, Player Death.
 
-Chris- Buttons and User Interface.
+Chris- Buttons, User Interface, and Scoreboard.
 
 Ryan- Art
 
