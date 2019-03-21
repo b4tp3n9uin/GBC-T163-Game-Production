@@ -1,0 +1,17 @@
+﻿  FSM.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\enemy.h(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\enemy.h(25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\bullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\bullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\explosion.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\explosion.h(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(277): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(284): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(291): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(292): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(301): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(345): warning C4018: '<': signed/unsigned mismatch
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\saberbomb_ghostinvaders_beta\gbc-t163-game-production-master\1014-project\fsm.cpp(371): warning C4018: '<': signed/unsigned mismatch
+  1014-project.vcxproj -> C:\Users\Matth\Documents\Saberbomb_GhostInvaders_Alpha\SaberBomb_GhostInvaders_Beta\GBC-T163-Game-Production-master\1014-project\Debug\1014-project.exe
