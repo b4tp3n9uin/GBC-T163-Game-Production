@@ -13,31 +13,24 @@ public:
 	~EnemyManager();
 
 	vector<Enemy*> enemies;
-	Vector2 enemyLocation;
+	int enemyTimer;
 
 	// Functions
 	void Update();
 	void Render();
 	void Clean();
 
-	
+
 	vector<Enemy*>& GetEnemies() { return enemies; }
-	inline int RandGetFromIntTo(int fromNum, int toNum)
-	{
-		return (rand() % (toNum - fromNum + 1)) + fromNum;
-	}
+
 
 	// Returns a random x position on the right half of the screen
 	int RandX(){
-		return rand() % 1200 + 950;
+		return 1000;
 	}
 
 	// Returns a random y position on the right half of the screen
 	int RandY(){
-		return rand() % 750 + 10;
-	}
-
-	int RandE(){
-		return rand() % 3 + 0;
+		return rand() % 710 + 30;
 	}
 };
