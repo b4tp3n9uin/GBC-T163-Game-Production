@@ -1,0 +1,130 @@
+﻿  AudioManager.cpp
+  Bullet.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.cpp(11): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.cpp(12): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.cpp(31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.cpp(72): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Button.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Enemy.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(162): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(165): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(168): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(169): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(172): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(173): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(176): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(183): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.cpp(184): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  EnemyBullet.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.h(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.cpp(13): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.cpp(24): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemybullet.cpp(25): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  EnemyManager.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemymanager.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemymanager.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemymanager.cpp(28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Explosion.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  FSM.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\explosion.h(20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.h(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.h(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(376): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(375): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(395): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(397): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(432): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\fsm.cpp(431): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Items.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.h(22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.h(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.cpp(22): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\items.cpp(25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\main.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\enemy.h(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(16): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(66): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\bullet.h(67): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.cpp(38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.cpp(39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\matth\documents\saberbomb_ghostinvaders_alpha\ghostinvaders_beta\player.cpp(42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Time.cpp
+  Generating Code...
+LINK : fatal error LNK1561: entry point must be defined
