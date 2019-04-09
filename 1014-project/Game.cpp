@@ -82,6 +82,26 @@ bool Game::Tick(){
   return false;
 }
 
+bool Game::m_bGotTick;
+unsigned int Game::m_OldTick;
+unsigned int Game::m_CurrentTick;
+
+void Game::UpdateTimer()
+{
+	m_OldTick = m_CurrentTick;
+	m_CurrentTick = SDL_GetTicks();
+}
+
+float Game::GetDT()
+{
+	float res = (m_CurrentTick - m_OldTick) / 1000.0f;
+
+	if (res > 0.2f)
+		res = 0.2f;
+
+	return res;
+}
+
 
 // SDL HandleEvents
 void Game::HandleEvents(){
