@@ -27,6 +27,7 @@ int main(int argc, char* argv[]) {
 		Game::Instance()->HandleEvents();			// Game HandleEvents
 		if (Game::Instance()->Tick()) {    		// Game Tick
 			Game::Instance()->Update();
+			Game::Instance()->UpdateTimer();
 			Game::Instance()->Render();
 		}
 	}
