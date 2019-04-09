@@ -8,14 +8,21 @@ using namespace std;
 
 class EnemyBullet{
 public:
-	EnemyBullet();
-	~EnemyBullet();
-
 
 	// Constructor
-	EnemyBullet(float ebx, float eby){
-	  ebDestR.x = ebx;
-	  ebDestR.y = eby;
+	EnemyBullet(float ebx, float eby, ENEMYTYPE _eType, float _eAngle){
+		if (_eType == BOSS)
+		{
+			ebDestR.x = ebx + 30;
+			ebDestR.y = eby + 50;
+		}
+		else
+		{
+			ebDestR.x = ebx - 10;
+			ebDestR.y = eby - 10;
+		}
+	  eType = _eType;
+	  eAngle = _eAngle;
 		ebSurf = IMG_Load("img/EnemyBullet.png");
 		ebText = SDL_CreateTextureFromSurface(Game::Instance()->GetRenderer(), ebSurf);
 	}
@@ -27,8 +34,14 @@ public:
 	SDL_Surface* ebSurf;
 	SDL_Texture* ebText;
 
+	// enemyType
+	ENEMYTYPE eType;
+
+	// EnemyBullet angle
+	float eAngle;
+
 	// Enemy Bullet speed
-	int ebSpeed = -20;
+	int ebSpeed = -300;
 
 	// Enemy Bullet location
 	Vector2 ebLocation;
@@ -39,5 +52,6 @@ public:
 
 	// GetBullet location
 	Vector2& GetEnemyBulletLocation(){ return ebLocation; }
+	void Clean();
 
 };
