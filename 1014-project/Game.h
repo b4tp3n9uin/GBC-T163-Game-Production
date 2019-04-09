@@ -7,6 +7,7 @@
 #include "SDL_image.h"
 #include "SDL_mixer.h"
 #include "SDL_ttf.h"
+#include <time.h>
 using namespace std;
 using namespace chrono;
 
@@ -14,7 +15,7 @@ class Game {
 private:
 	// Variables
 	bool m_bRunning;
-	bool m_bGotTick;
+	//bool m_bGotTick;
 	bool m_bLeftMouse = false;
 	const Uint8* m_iKeystates;
 	int m_iMouseX, m_iMouseY;
@@ -28,6 +29,10 @@ private:
 	// Managers
 	StateMachine* pFSM;
 	AudioManager* pAM;
+
+	static bool m_bGotTick;
+	static unsigned int m_OldTick;
+	static unsigned int m_CurrentTick;
 
 	Game() { cout << "Constructing game..." << '\n'; }
 public:
@@ -52,7 +57,9 @@ public:
 	int GetMouseY() { return m_iMouseY; }
 	int GetLeftMouse() { return m_bLeftMouse; }
 	void DoQuit() { m_bRunning = false; }
-
+	void UpdateTimer();
+	static float GetDT();
+	static unsigned int GetCT() { return m_CurrentTick; };
 
 	// Key check
 	bool KeyDown(SDL_Scancode c);
