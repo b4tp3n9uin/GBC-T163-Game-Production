@@ -3,9 +3,6 @@
 
 void Explosion::Update(){
 
-  // Update explosion rect size
-  epDestR.w = 40;
-  epDestR.h = 40;
 
   // Tick the counter
   counter++;
