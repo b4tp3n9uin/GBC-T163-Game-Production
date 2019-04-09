@@ -13,9 +13,11 @@ public:
 	~Explosion();
 
 	// Constructor
-	Explosion(float epx, float epy){
+	Explosion(float epx, float epy, float w, float h){
 		epDestR.x = epx;
 		epDestR.y = epy;
+		epDestR.w = w;
+		epDestR.h = h;
 		epSurf = IMG_Load("img/Explosion.png");
 		epText = SDL_CreateTextureFromSurface(Game::Instance()->GetRenderer(), epSurf);
 		counter = 0;
