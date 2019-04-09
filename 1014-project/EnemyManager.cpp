@@ -11,18 +11,30 @@ EnemyManager::~EnemyManager(){
 }
 
 
-void EnemyManager::Update()
-{
-  // Generate enemy according to the time lapes from game start
-  if ((rand() % 100 + 1) % 2 == 1) {
-    enemies.push_back(new Enemy(RandX(), RandY(), RandE()));
-  }
+void EnemyManager::Update(){
+	// for loop
+	if (enemyTimer > 2000)
+		enemyTimer = 0;
 
+	enemyTimer++;
+  // Generate enemy according to the time lapes from game start and making time limit
+  if (enemyTimer % 100 == 0) {
+    enemies.push_back(new Enemy(RandX(), RandY(), RED));
+  }
+  if (enemyTimer % 500 == 0) {
+	  enemies.push_back(new Enemy(RandX(), RandY(), BLUE));
+  }
+  if (enemyTimer % 1000 == 0) {
+	  enemies.push_back(new Enemy(RandX(), RandY(), PURPLE));
+  }
+  if (enemyTimer % 2000 == 0) {
+	  enemies.push_back(new Enemy(1200, 200, BOSS));
+  }
 
   for (int i = 0; i < enemies.size(); i++){
 		enemies[i] -> Update();
-    if (enemies[i]->eDestR.x < 0 || enemies[i]->eDestR.x > 1024 ||
-      enemies[i]->eDestR.y < 0 || enemies[i]->eDestR.y > 768){
+    if (enemies[i]->eDestR.x < 0 || enemies[i]->eDestR.x > 1300 ||
+      enemies[i]->eDestR.y < 0 || enemies[i]->eDestR.y > 800){
       enemies[i] -> Clean();
       delete enemies[i];
       enemies[i] = nullptr;
