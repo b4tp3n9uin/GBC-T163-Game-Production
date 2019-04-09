@@ -9,6 +9,7 @@
 #include "EnemyManager.h"
 using namespace std;
 class Explosion;
+class Items;
 // Abstract class for all states
 class State {
 protected:
@@ -63,7 +64,6 @@ public:
 	void Exit();
 	void Resume() { cout << "Resuming Game..." << '\n'; }
 
-
 	// Sound effects
 	enum sfx { fire, hit, pew, powerup1, powerup2 };
 
@@ -72,10 +72,10 @@ public:
 	SDL_Texture* bgText;
 	SDL_Rect bgRect;
 
-	// This bool prevents CollisionCheck after game stopped
+	// Checks if your still paying the game
 	bool ingame;
 
-	// Player dead bool
+	// Player is dead bool
 	bool isDead;
 
 	// Player object
@@ -86,23 +86,34 @@ public:
 
 	// Firing flag
 	bool canFire = true;
-
+	bool canBomb = true;
+	bool canBombDamage = true;
+	// timeCheck
+	float timer;
+	float bulletTimer;
+	float limitBulletTime;
 	// Score board
 	int score;
-	string buff;
-	const char* currScore;
 	TTF_Font* scoreFont;
 	SDL_Color scoreColor = {255,255,255,255};
 	SDL_Surface* scoreSurf;
 	SDL_Texture* scoreText;
 	SDL_Rect sRect;
+	string buff;
+	const char* currScore;
+
+	// bomb board
+	SDL_Surface* bombSurf;
+	SDL_Texture* bombText;
+	SDL_Rect bRect;
 
 	// CollisionCheck
 	bool CollisionCheck(SDL_Rect a, SDL_Rect b);
 
 	// Explosion vector
 	vector<Explosion*> vExplosion;
-
+	// Item vector
+	vector<Items*> vItems;
 
 };
 
@@ -132,6 +143,25 @@ public:
 };
 
 
+// InstructionsState
+class InstructionState : public State
+{
+public:
+	vector<Button*> iButtons;
+	InstructionState() {}
+	void Enter();
+	void Update();
+	void Render();
+	void Exit();
+	void Resume() {}
+
+	// Exit Button
+	enum ibtn { menu };
+
+	// Background
+	SDL_Surface* bgSurf;
+	SDL_Texture* bgText;
+};
 
 
 // LoseState
@@ -147,12 +177,15 @@ public:
 	// Buttons
 	enum lbtn { menu };
 	enum lsfx { death };
+
 	// Logo
 	SDL_Rect LsrcR, LdestR;
 	SDL_Surface* LostSurf;
 	SDL_Texture* LostText;
 
-
+	// Background
+	SDL_Surface* bgSurf;
+	SDL_Texture* bgText;
 };
 
 
